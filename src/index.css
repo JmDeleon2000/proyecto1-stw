@@ -1,0 +1,260 @@
+.see-all-posts {
+  background-image: url('./seeAllPosts.png');
+  width: 281px;
+  height: 62px;
+}
+.homebrew {
+  background-image: url('./homebrew.png');
+  width: 380px;
+  height: 165px;
+}
+.encounter {
+  background-image: url('./encounter.png');
+  width: 380px;
+  height: 165px;
+}
+.createAchara {
+  background-image: url('./createAChara.png');
+  width: 380px;
+  height: 165px;
+}
+.compendium {
+  background-image: url('./compendiumLogo.png');
+  width: 380px;
+  height: 165px;
+}
+.center-cont {
+  padding-top: 20px;
+  padding-left: 40%;
+}
+.center-cont-extras {
+  padding-top: 20px;
+  padding-left: 10%;
+  display: flex;
+  width: 800px;
+}
+.container-2 {
+  padding-left: 50%;
+}
+.searchBar {
+  background-color: inherit;
+  color: whitesmoke;
+  border: none;
+  width: 600px;
+}
+.searchLogo {
+  height: 60px;
+  width: 30px;
+  background-image: url('./searchLogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fancylink-discord {
+  height: 60px;
+  width: 30px;
+  background-image: url('./discordlogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fancylink-twitch {
+  height: 60px;
+  width: 30px;
+  background-image: url('./twitchLogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fancylink-youtube {
+  height: 60px;
+  width: 30px;
+  background-image: url('./youtubeLogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fancylink-facebook {
+  height: 60px;
+  width: 30px;
+  background-image: url('./facebookLogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fancylink-twitter {
+  height: 60px;
+  width: 30px;
+  background-image: url('./twitterLogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fancylink-sign {
+  height: 60px;
+  width: 205px;
+  background-image: url('./signin.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fancylink-register {
+  height: 60px;
+  width: 205px;
+  background-image: url('./register.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.topbar {
+  display: flex;
+  background-color: black;
+  border-bottom: red;
+  border-width: 3px;
+  border-radius: 0;
+  border-style: solid;
+}
+.logo {
+  background-image: url('./logoBarra.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 60px;
+}
+.banner {
+  display: flex;
+  background-image: url('./fondoBigArt.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  background-color: white;
+}
+.art-auth-date-cont {
+  background-color: black;
+  color: whitesmoke;
+  width: fit-content;
+  height: 22px;
+}
+.bigArt {
+  padding-left: 10%;
+  width: 40%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  top: 300px;
+}
+iframe {
+  display: flexbox;
+  position: absolute;
+  right: 10%;
+  bottom: 220px;
+}
+.smallArt {
+  width: 100%;
+  height: 50%;
+  color: black;
+  position: relative;
+}
+.article-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  overflow: hidden;
+  width: 1200px;
+  height: fit-content;
+}
+.mid-art-bg {
+  background-image: url('./fondoBigArt.png');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+.mid-art-bg-2 {
+  background-image: url('./fondoBigArt.png');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+.art-auth-date-cont-small {
+  background-color: black;
+  color: whitesmoke;
+  width: fit-content;
+  height: 22px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+.mid-art-cont {
+  padding-top: 20px;
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.pie {
+  background-image: url('./pie.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 250px;
+  position: relative;
+}
+body {
+  background-color: #f2f1ee;
+}
+.NiceLink a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Andale Mono', monospace, 'bold';
+  font-size: 7px;
+  font-weight: bold;
+}
+
+.NiceLink:hover {
+  animation-name: flash;
+  animation-timing-function: linear;
+  animation-duration: 0s;
+}
+@keyframes flash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+    color: black;
+  }
+}
+.redLink a {
+  text-decoration: none;
+  color: red;
+}
+.article-cont {
+  display: table;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 900px;
+}
+.SmallArtcont {
+  text-decoration: none;
+  background-image: url('./fondoBigArt.png');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  width: inherit;
+  height: 200px;
+}
+.no-text-decor a {
+  text-decoration: none;
+  color: black;
+  width: 390px;
+}
+.no-text-decor {
+  padding-top: 20px;
+  padding-left: 10px;
+  display: table-cell;
+}
+.barra {
+  background-color: #26282a;
+  width: inherit;
+  height: 50px;
+  color: #a5afba;
+  background-image: url('./navbar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
